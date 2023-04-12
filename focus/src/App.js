@@ -8,7 +8,7 @@ const App = () => {
   }
   return (
     <div>
-      <input ref={value} />
+      <input ref={value} /><br/>
       <button onClick={setValue}>click here</button>
     </div>
   )

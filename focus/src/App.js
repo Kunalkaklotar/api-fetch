@@ -4,7 +4,7 @@ import React, { useRef } from 'react'
 const App = () => {
   let value = useRef()
   const setValue = () => {
-    console.log(value.current.focus(),value.current.value )
+    console.log(value.current.value );value.current.focus()
   }
   return (
     <div>
